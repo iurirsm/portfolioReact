@@ -1,0 +1,14 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;   
+  margin: 0;
+}
+
+.welcome-image {
+  width: 70%; 
+  height: auto; 
+}

@@ -1,0 +1,45 @@
+/* Projects.css */
+
+/* Container for the entire page content */
+.projects-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* Top-left image styling */
+.top-left-image {
+  width: 30%;
+  display: flex; 
+  height: auto; 
+  margin-bottom: 150px; 
+}
+
+/* Container for the project items */
+.projects-grid {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+/* Each project item */
+.project-item {
+  text-align: left; 
+  flex-basis: 20%; 
+  margin: 0 10px; 
+}
+
+/* Project images */
+.project-image {
+  width: 100%; 
+  height: auto; 
+}
+
+/* Descriptions for each project */
+.project-description {
+  margin-top: 10px;
+  font-size: 1rem; 
+}
+

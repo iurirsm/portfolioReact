@@ -1,9 +1,11 @@
 import React from 'react';
+import welcomeImage from '../assets/welcome.png'; 
+import './Home.css';
 
 function Home() {
   return (
-    <div>
-      <h2>Welcome to My Portfolio</h2>
+    <div className="home-container">
+      <img src={welcomeImage} alt="Welcome" className="welcome-image" />
     </div>
   );
 }
