@@ -1,0 +1,21 @@
+/* Container for the whole page */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Image at the top-left */
+  .services-image {
+    width: 65%; 
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  
+  /* Text under the image */
+  .services-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }  
