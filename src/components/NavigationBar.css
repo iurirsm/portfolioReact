@@ -1,0 +1,55 @@
+/* NavigationBar.css */
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation bar styling */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for contrast */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%; 
+    z-index: 1000; 
+  }
+  
+  /* Navigation items */
+  .navbar-list li {
+    margin: 0 10px; 
+    padding: 0;
+    display: flex;
+    align-items: center; 
+  }
+  
+  /* Icon styling */
+  .nav-icon {
+    width: 100px;
+    height: auto;
+    display: block;
+  }
+  
+  /* Hover effects */
+  .navbar-list a:hover .nav-icon {
+    opacity: 0.8; 
+    cursor: pointer;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .nav-icon {
+      width: 30px;
+    }
+  
+    .navbar-list li {
+      margin: 0 5px;
+    }
+  }
+  
