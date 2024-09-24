@@ -1,6 +1,14 @@
+/* 
+File Name: AboutMe.jsx
+Student Name: Iuri Melo
+Student ID: 301382883
+Date: 2024-09-22
+*/
+
 import React from 'react';
 import leftImage from '../assets/aboutMePic.png'; 
 import rightImage from '../assets/photous.png';
+import resumeFile from '../assets/resume.pdf';
 import './AboutMe.css';
 
 function AboutMe() {
@@ -8,17 +16,32 @@ function AboutMe() {
     <div className="about-container">
       <div className="left-section">
         <img src={leftImage} alt="About me image" className="about-image" />
-        <p className="about-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices orci vel ante vulputate, quis efficitur velit laoreet. Nullam maximus feugiat massa, quis fermentum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a lobortis sem. Fusce pretium arcu quis cursus euismod. Nulla dapibus tortor quis tellus mollis, ac fermentum dolor rutrum. Donec dolor augue, auctor sit amet ullamcorper et, posuere sed orci. Nulla et euismod massa, in mattis ligula. Maecenas eu quam vitae enim suscipit tempor. Nulla nec elit in nulla auctor suscipit. Nulla arcu ipsum, lobortis eget elementum et, vestibulum et augue. Quisque vel dui libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec finibus nec massa ut dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices orci vel ante vulputate, quis efficitur velit laoreet. Nullam maximus feugiat massa, quis fermentum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam a lobortis sem. Fusce pretium arcu quis cursus euismod. Nulla dapibus tortor quis tellus mollis, ac fermentum dolor rutrum. Donec dolor augue, auctor sit amet ullamcorper et, posuere sed orci. Nulla et euismod massa, in mattis ligula. Maecenas eu quam vitae enim suscipit tempor. Nulla nec elit in nulla auctor suscipit. Nulla arcu ipsum, lobortis eget elementum et, vestibulum et augue. Quisque vel dui libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec finibus nec massa ut dictum.
+        <h1 className="about-name">Iuri Renato Souza Melo</h1> 
+        <p className="about-paragraph">
+			I’m a software engineering student and freelance coder with a diverse background in IT. Having worked as a network engineer earlier in my career, I bring a deep understanding of both software and infrastructure. My current focus is on delivering efficient, scalable solutions through modern programming practices.
         </p>
       </div>
 
       <div className="right-section">
         <img src={rightImage} alt="Right image" className="about-image" />
-        <a href="/resume.pdf" className="resume-link">Download my resume</a>
+        <a href={resumeFile} download="resume.pdf" className="resume-link">
+          Download my resume
+          </a>
       </div>
     </div>
   );
 }
 
 export default AboutMe;
+
+
+
+
+
+
+
+
+
+
+
+

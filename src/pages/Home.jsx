@@ -1,3 +1,10 @@
+/* 
+File Name: Home.jsx
+Student Name: Iuri Melo
+Student ID: 301382883
+Date: 2024-09-22
+*/
+
 import React from 'react';
 import welcomeImage from '../assets/welcome.png'; 
 import './Home.css';

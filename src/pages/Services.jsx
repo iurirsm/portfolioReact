@@ -1,7 +1,15 @@
+/* 
+File Name: Services.jsx
+Student Name: Iuri Melo
+Student ID: 301382883
+Date: 2024-09-22
+*/
+
 import React from 'react';
 import servicesImage from '../assets/services-image.png'; 
 import './Services.css';
 
+// Note: Services placeholder.
 function Services() {
   return (
     <div className="services-container">

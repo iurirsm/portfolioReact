@@ -1,4 +1,10 @@
-/* Container for the whole page */
+/* 
+File Name: AboutMe.css
+Student Name: Iuri Melo
+Student ID: 301382883
+Date: 2024-09-24
+*/
+
 .about-container {
   display: flex;
   justify-content: space-between; 
@@ -6,9 +12,10 @@
   padding: 20px;
   margin-top: 10px; 
   flex-wrap: wrap; 
+  font-family: 'Inter', sans-serif;
 }
 
-/* Left section styling */
+
 .left-section {
   flex-basis: 30%; 
   display: flex;
@@ -16,7 +23,30 @@
   align-items: flex-start; 
 }
 
-/* Right section styling */
+
+.about-name {
+  font-size: 3.5rem;
+  font-weight: bold; 
+  color: white; 
+  margin-bottom: 20px;
+}
+
+
+.about-paragraph {
+  font-size: 1.4rem;
+  line-height: 1.6; 
+  color: white; 
+  max-width: 600px; 
+}
+
+.about-name, .about-paragraph {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
 .right-section {
   margin-top: 200px;
   flex-basis: 30%; 
@@ -25,20 +55,14 @@
   align-items: flex-start; 
 }
 
-/* Image styling */
+
 .about-image {
   width: 80%; 
   height: auto; 
   margin-bottom: 20px; 
 }
 
-/* Text styling */
-.about-text {
-  font-size: 1rem;
-  line-height: 1.5;
-}
 
-/* Link styling */
 .resume-link {
   font-size: 1.2rem;
   color: #007bff; 
@@ -50,18 +74,22 @@
   text-decoration: underline;
 }
 
-/* For smaller screens */
+
 @media (max-width: 768px) {
   .about-container {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
+    flex-direction: column;
   }
 
   .left-section, .right-section {
-    flex-basis: 100%; /* Each section takes full width */
-    margin-bottom: 20px; /* Add spacing between sections */
+    flex-basis: 100%; 
+    margin-bottom: 20px;
   }
 
-  .resume-link {
-    margin-top: 10px;
+  .about-name {
+    font-size: 2.5rem;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
   }
 }

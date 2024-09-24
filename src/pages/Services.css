@@ -1,4 +1,10 @@
-/* Container for the whole page */
+/* 
+File Name: Services.css
+Student Name: Iuri Melo
+Student ID: 301382883
+Date: 2024-09-22
+*/
+
 .services-container {
     display: flex;
     flex-direction: column;
